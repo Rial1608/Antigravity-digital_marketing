@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#1A0F0A] text-[#F5E6D3] font-['Inter'] antialiased;
+  }
+  
+  ::selection {
+    @apply bg-[#4F9C8F] text-white;
+  }
+  
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #1A0F0A;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #5A4034;
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #7A5044;
+  }
+}
