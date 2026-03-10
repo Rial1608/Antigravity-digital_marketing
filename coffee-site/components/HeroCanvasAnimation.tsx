@@ -4,7 +4,7 @@ import { useRef, useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 
 const TOTAL_FRAMES = 192;
-const FRAME_PATH = '/frames';
+const FRAME_PATH = '/Antigravity-digital_marketing/frames';
 
 export default function HeroCanvasAnimation() {
   const containerRef = useRef<HTMLDivElement>(null);
